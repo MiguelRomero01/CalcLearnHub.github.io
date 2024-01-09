@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRU</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fisica.js"></script>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <br><br>
+    <h1><b><em>Acceleration</em></b></h1><br><br><br><br>
+    <h2 class="formulamrua">Formula: a = (s<sub>f</sub>- s<sub>i</sub>) / t</h2><br><br><br><br>
+
+    <form id="formulario">
+        <label for="distancia-i">Initial Speed
+        <input  class="dates" type="number" id="distancia-i" placeholder="(m/s)"></label><br><br>
+
+        <label for="distancia-f">Final Speed
+            <input  class="dates" type="number" id="distancia-f" placeholder="(m/s)"></label><br><br>
+
+        <label for="tiempo">Time
+        <input class="dates" type="number" id="tiempo" placeholder="(s)"></label> <br> <br>
+        
+        <p>The total Acceleration is <span id="resultado"></span></p><br><br>
+        
+        <button type="button" id="calcular" onclick="acelerate()"><b>Calculate</b></button>
+
+        <button type="button" id="menu"><a href="index.html"><b>Home</b></a></button>
+        
+        <button type="button" id="return"><a href="Fisica.html"><b>Return</b></a></button>
+
+    </form>        
+</body>
+</html>

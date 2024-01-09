@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');  /*titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');                  /*subtitulo*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');                   /*datos*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');                /*resultado*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-image: url(fondo.jpg);
+    text-align: center;
+
+}
+
+#geometria{
+    background-image: url(fondo-geometria.png);
+    text-align: center;
+}
+
+#index{
+    background-size: cover;
+    background-image: url(fondo-index.jpg);
+    text-align: center;
+}
+
+#fisica{
+    background-size: cover;
+    background-image: url(fondo-geometria.png);
+    text-align: center;
+}
+
+nav{
+    max-width: 900px;
+    margin:auto;
+    margin-top: 50px;
+    background-color: #333;
+    text-align: center;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: Edu TAS Beginner;
+    font-size: 23px;
+
+}
+
+.menu-horizontal >li >a{
+    display: block;
+    padding: 15px, 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-horizontal >li:hover{
+    text-align: center;
+    background-color: red;
+    padding:5px;
+    font-size: 22px;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+    font-family: Courgette;
+    text-decoration: solid;
+}
+
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical{
+    background-color: black;
+}
+
+.menu-vertical li a:hover{
+    background-color: #F37878;
+    font-size: 23px;
+    text-decoration: solid;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+
+/* subpaginas */
+label{
+    font-size: 38px;
+    color: crimson;
+    font-family:Sriracha ;
+}
+
+label:hover{
+    font-size: 42px;
+    transition: all 0.27s ease-in-out;
+}
+
+.dates{
+    contain: "";
+    font-size: 25px;
+    color: black;
+    width: 170px;
+    height: 40px;
+    background-color: rgba(174, 174, 174, 0.884);
+    border-color: transparent;
+    border-radius: 7.5px;
+    padding: 20px;
+    font-family:Sriracha ;
+    text-align: center;
+}
+
+.dates:hover{
+    font-size: 28px;
+    text-align: center;
+    width: 180px;
+    transition: all 0.27s ease-in-out ;
+    border-radius: 4.5px;
+    border-bottom-color: #D61C4E;
+    font-family:Sriracha ;
+    padding: 24px;
+}
+
+p, span {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Arvo;
+}
+
+h1{
+    position: relative;
+    color: #D61C4E;
+    font-size: 70px;
+    font-family: Kaushan Script;
+    display: inline-block;
+}
+h1::after, h1::before{
+    content:'';
+    position: absolute;
+    width: 160px;
+    height: 4px;
+    background-color: #D61C4E;
+    top: 0.8em;
+    font-style: oblique;
+}
+
+h1:before{
+    left: -160px;
+}
+
+h1::after{
+    right: -180px;
+}
+
+.formula, .formulamrua, .formula2, .formula3, .formulageo, .formulalarga{
+    color: #FF9F29;
+    font-size: 30px;
+    display: inline-block;
+    font-family: cursive;
+    border-radius: 20px 20px;
+    box-shadow: 1px 1px 2.2px 2.3px#393e46;
+    border-style: solid;
+    line-height:45px;
+    width: 350px;
+    border-color: #ff7600;
+}
+
+.formulageo{
+    width: 450px;
+}
+
+.formulalarga{
+    width: 630px;
+}
+
+.formulamrua{
+    width: 400px;
+}
+
+
+.formula2{
+    position: relative; 
+    left: -430px;
+    top: -68px;
+}
+
+.formula3{
+    position: relative;
+    right: -430px;
+    top: -133px;
+}
+
+.proportional{
+    position: relative;
+    top:-360px;
+    left: -470px;
+    font-size: 20px;
+    color: #29D2E4;
+    font-family: Arvo;
+}
+
+.example{
+    position: relative;
+    top:150px;
+    left: 460px;
+    font-size: 20px;
+    color: #29D2E4;
+    font-family: Arvo;
+}
+
+
+.transparent{
+    color: transparent;
+    background-color: transparent;
+}
+
+#tripleform{
+    position: relative;
+    top: -90px;
+}
+
+#triplebutton{
+    position: relative;
+    top: -40px;
+}
+

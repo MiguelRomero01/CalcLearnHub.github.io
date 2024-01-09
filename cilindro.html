@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRU</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="geometria.js"></script>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <br><br><br><br>
+    <h1><b><em>Cylinder</em></b></h1><br><br><br><br>
+
+    <h2 class="formula">Formula: V = (π*r<sup>2</sup>)*h</h2><br><br><br><br>
+
+    <form id="formulario">
+        <label > Height
+        <input  class="dates" type="number" id="altura-c"></label><br><br>
+
+        <label > radius
+            <input  class="dates" type="number" id="radio-c"></label><br><br>
+            <span>or</span><br>
+        <label > Diameter
+            <input  class="dates" type="number" id="diametro-c"></label><br><br>    
+
+        <p>The Cylinder volume is <span id="resultado"></span></p><br><br>
+        
+        <button type="button" id="calcular" onclick="cilindro()"><b>Calculate</b></button>
+
+        <button type="button" id="menu"><a href="index.html"><b>Home</b></a></button>
+        
+        <button type="button" id="return"><a href="geometria.html"><b>Return</b></a></button>
+    </form>        
+</body>
+</html>

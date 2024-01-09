@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRU</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="geometria.js"></script>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <br>
+    <h1><b><em>Teorema del Seno</em></b></h1><br><br>
+    <h2 class="formulalarga">Formula: a/sen(A) = b/sen(B) = c/sen(C)</h2> <br><br><br>
+    <form id="formulario">
+        
+        <label><span class="transparent">..</span> Side a
+            <input  class="dates" type="number" id="a"></label><br><br>
+
+        <label>angle(A)
+            <input  class="dates" type="number" id="angle-a"></label><br><br> 
+
+        <label><span class="transparent">.....</span>Side b
+            <input  class="dates" type="number" id="b"></label><br><br>
+    
+        <label><span class="transparent">.</span>angle(B)
+            <input  class="dates" type="number" id="angle-b"></label><br><br> 
+     
+        <label><span class="transparent">......</span>Side c
+           <input  class="dates" type="number" id="c"></label><br><br>
+        
+        <label><span class="transparent">.</span> angle(C)
+           <input  class="dates" type="number" id="angle-c"></label><br><br> <br>        
+    
+        <p>The missing value result is <span id="resultado"></span></p><br>
+        <h2>Options:
+            <br>a = side b, angle(A) and angles(B)
+            <br>b = side a, angle(B) and angles(A)
+            <br>c = side c, angle(C) and angles(A)
+            <br>angle(A) = side a and side c
+            <br>angle(B) = side b and side c
+            <br>angle(C) = side c and side a
+        </h2><br>
+        
+        <button type="button" id="calcular" onclick="seno()"><b>Calculate</b></button>
+
+        <button type="button" id="menu"><a href="index.html"><b>Home</b></a></button>
+        
+        <button type="button" id="return"><a href="geometria.html"><b>Return</b></a></button>
+    </form> <br><br><br><br><br><br><br>
+         
+</body>
+</html>

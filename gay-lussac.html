@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRU</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="quimica.js"></script>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+
+    <h1><b><em>Gay-Lussac's Law</em></b></h1><br><br>
+
+    <h2 class="formula">Formula: P<sub>1</sub>/T<sub>1</sub>= P<sub>2</sub>/T<sub>2</sub></h2> <br><br>
+   <span class="example">The Volume is constant</span><br> 
+
+        <label for="presion1l"><span class="transparent">...........</span>Pressure 1 
+            <input  class="dates" type="number" id="presion1l" placeholder="(atm)"></label><br><br>
+
+        <label for="temperatura1l">Temperature 1
+            <input  class="dates" type="number" id="temperatura1l" placeholder="(°K)"></label><br><br>
+
+        <label for="presion2l"><span class="transparent">...........</span>Pressure 2 
+            <input  class="dates" type="number" id="presion2l" placeholder="(atm)"></label><br><br><br>
+
+        <label for="temperatura2l">Temperature 2 
+            <input  class="dates" type="number" id="temperatura2l" placeholder="(°K)"></label><br><br>
+
+
+        <p>The missing value result is <span id="resultado"></span></p><br>
+
+     <div id="button">   
+        <button type="button" id="calcular" onclick="lussac()"><b>Calculate</b></button>
+
+        <button type="button" id="menu"><a href="index.html"><b>Home</b></a></button>
+        
+        <button type="button" id="return"><a href="quimica.html"><b>Return</b></a></button><br>
+        <span class="proportional">Temperature is directly <br>proportional to pressure.</span>
+     </div>
+</body>
+</html>

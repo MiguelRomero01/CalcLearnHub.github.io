@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRU</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="quimica.js"></script>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+
+    <h1><b><em>Steichimetry</em></b></h1><br><br><br><br>
+
+     <h2 class="formula">Formula: g = mol * Mm</h2> <br><br>
+    <h2 class="formula2">Formula: mol = g / Mm</h2> <br><br>
+    <h2 class="formula3">Formula: Mm = g / mol</h2> <br>
+
+    <div id="tripleform">
+        <label><span class="transparent">.............</span>Mass
+            <input  class="dates" type="number" id="masa" placeholder="(g)"></label><br><br>
+
+        <label><span class="transparent">............</span>Moles
+            <input  class="dates" type="number" id="mol" placeholder="(mol)"></label><br><br>
+
+        <label>Molar Mass
+            <input  class="dates" type="number" id="masa molar" placeholder="(Mm)"></label><br><br>
+    </div>
+
+    <div id="triplebutton">   
+        <p>The missing value result is <span id="resultado"></span></p><br>
+        <button type="button" id="calcular" onclick="mol()"><b>Calculate</b></button>
+
+        <button type="button" id="menu"><a href="index.html"><b>Home</b></a></button>
+        
+        <button type="button" id="return"><a href="quimica.html"><b>Return</b></a></button><br>
+     </div>
+</body>
+</html>
